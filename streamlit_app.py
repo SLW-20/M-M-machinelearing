@@ -7,17 +7,6 @@ st.info('This is app builds a machine learing model')
 ('MIS')
 
 
-import numpy as np
-import pandas as pd
-import streamlit as st
-
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import ConfusionMatrixDisplay, RocCurveDisplay, PrecisionRecallDisplay
-from sklearn.metrics import precision_score, recall_score 
-from sklearn.preprocessing import LabelEncoder
-from sklearn.svm import SVC
 
 def main():
     # Get rid of unnecessary warning
